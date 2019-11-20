@@ -7,9 +7,9 @@ pipeline {
             }
         }
     }
-    post{
-        always{
-            archieve 'dist/*.jar'
-        }    
-    }
+#    post{
+ #       always{
+  #          archieve 'dist/*.jar'
+   #     }    
+    #}
 }
