@@ -12,10 +12,5 @@ pipeline {
         sh 'ant -f build.xml -v' 
       }
     }
-  }
-  post {
-    always{
-      archieveArtifacts artifacts: 'dist/*.jar' , fingerprint: true 
-    }
-  }    
+  } 
 }
