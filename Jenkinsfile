@@ -8,8 +8,8 @@ pipeline {
         }
     }
     post{
-            always{
-                archieve 'dist/*.jar'
-            }    
+        always{
+            archieve 'dist/*.jar'
+        }    
     }
 }
