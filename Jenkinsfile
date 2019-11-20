@@ -12,3 +12,4 @@ pipeline {
                 archieve 'dist/*.jar'
             }    
     }
+}
