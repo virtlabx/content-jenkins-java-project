@@ -18,10 +18,10 @@ pipeline {
         sh 'ant -f build.xml -v' 
       }
     }
-    stage ('Running on CentOS'){
-      agent {
-        label 'CentOS' 
-      }
-    }
+#    stage ('Running on CentOS'){
+#      agent {
+#        label 'CentOS' 
+#      }
+#    }
   } 
 }
